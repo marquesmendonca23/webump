@@ -1,27 +1,19 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
-    "strict": true,
-    "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx",
-    "baseUrl": "./src"
-  },
-  "include": [
-    "src"
+  "name": "The Cans",
+  "description": "The Cans is the best nft collection in the SEI network! mint now!",
+  "rpc": "https://sei-testnet-2-rpc.brocha.in",
+  "network": "atlantic-2",
+  "collection_address": "sei18dkjfugg4p74fa37qqj4e2t22dxeauxxdt7kc4ljajjxgyjgvh8s2lgrfs",
+  "groups": [
+    {
+      "name": "whitelist",
+      "allowlist": [
+        "sei1qlmlc9h6deamn6hqc7pfwxslvth77sgpu9ucdn",
+        "sei14v72v7hgzuvgck6v6jsgjacxnt34gj06qnx53d"
+      ]
+    },
+    {
+      "name": "public"
+    }
   ]
 }
